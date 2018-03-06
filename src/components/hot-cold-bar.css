@@ -1,0 +1,7 @@
+.ganderbox {
+  height: 20%;
+  background: #f0a007;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

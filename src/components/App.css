@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+.game-contain {
+  width: 310px;
+  margin: 0 auto;
+  height: 400px;
+  background: white;
+  border: 2px solid white;
+  padding: 0px;
+}

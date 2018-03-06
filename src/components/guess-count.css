@@ -1,0 +1,7 @@
+.countbox {
+  height: 20%;
+  background: #6adcdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

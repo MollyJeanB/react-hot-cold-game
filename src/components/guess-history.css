@@ -1,0 +1,19 @@
+.historybox {
+  height: 20%;
+  background: #f0a007;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  border: 1px solid white;
+  background: #d94546;
+  color: white;
+  padding: 3px;
+  margin: 3px;
+}
