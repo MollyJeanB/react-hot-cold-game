@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import styles from "./App.css";
 
 import HotColdBar from "./hot-cold-bar";
 import GuessForm from "./guess-form";
@@ -51,9 +51,9 @@ export default class App extends React.Component {
     const guessCount = guesses.length;
 
     return (
-      <div className="app">
+      <div className={styles.app}>
         <h1>Hot or Cold?</h1>
-        <div className="game-contain">
+        <div className={styles.gamecontain}>
           <HotColdBar hotCold={hotCold} />
           <GuessForm onSetGuess={currentGuess => this.setGuess(currentGuess)} />
           <GuessCount guessCount={guessCount} />

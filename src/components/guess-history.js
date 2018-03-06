@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./guess-history.css";
+import styles from "./guess-history.css";
 
 export default function GuessHistory(props) {
   const guesses = props.guesses.map((guess, index) => (
@@ -8,7 +8,7 @@ export default function GuessHistory(props) {
   ));
 
   return (
-    <div className="historybox">
+    <div className={styles.historybox}>
       <ul id="guessHistory">{guesses}</ul>
     </div>
   );
