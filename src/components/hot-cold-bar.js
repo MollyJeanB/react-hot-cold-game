@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./hot-cold-bar.css";
+import styles from "../component-style/hot-cold-bar.css";
 
 export default function HotColdBar(props) {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./guess-form.css";
+import styles from "../component-style/guess-form.css";
 
 export default class GuessForm extends React.Component {
   onSubmit(event) {

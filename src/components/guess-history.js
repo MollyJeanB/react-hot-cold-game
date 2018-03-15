@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./guess-history.css";
+import styles from "../component-style/guess-history.css";
 
 export default function GuessHistory(props) {
   const guesses = props.guesses.map((guess, index) => (

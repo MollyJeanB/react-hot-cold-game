@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./App.css";
+import styles from "../component-style/App.css";
 
 import HotColdBar from "./hot-cold-bar";
 import GuessForm from "./guess-form";

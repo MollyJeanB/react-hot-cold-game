@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./guess-count.css";
+import styles from "../component-style/guess-count.css";
 
 export default function GuessCount(props) {
   return (
